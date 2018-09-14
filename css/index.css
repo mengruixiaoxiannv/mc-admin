@@ -1,0 +1,6 @@
+.con:not(:first-child) {
+    display: none;
+}
+#content {
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    background: url('../img/bgimage.png') no-repeat;
+    background-size:100% 100%;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+ul,ol {
+    list-style: none;
+}
+a{ 
+    text-decoration: none;
+} 
+input, textarea {
+    outline: none;
+    border: none;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+}
+
+.login .logoPic{
+    margin: 0 auto;
+    width: 1.44rem;
+}
+.login .logoPic img{
+    width: 100%;
+    margin-top: .8rem;
+}
+.login .main{
+    width: 87.22%;
+    margin: .4rem auto;
+    height: 31%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.login .field{
+    background-color: rgba(12, 12, 22, 0.7);
+    border:1px solid rgba(204, 204, 204);
+    border-radius: .1rem;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.login .icon{
+    position: absolute;
+    left: .13rem;
+    top: .13rem;
+    z-index: 5;
+    width: .2rem; /*设置图片显示的宽*/
+    height: .2rem; /*图片显示的高*/
+}
+.login .user{
+    background: url('../img/dlzh.png') no-repeat; /*引入图片图片*/
+    background-position: 0px 0px; /*图片显示的位置*/
+    background-size: 100% 100%;
+}
+.login .pwd{
+    background: url('../img/dlmm.png') no-repeat; /*引入图片图片*/
+    background-position: 0px 0px; /*图片显示的位置*/
+    background-size: 100% 100%;
+}
+.login .eye{
+    background: url('../img/mmxs.png') no-repeat; /*引入图片图片*/
+    background-position: 0px 0px; /*图片显示的位置*/
+    background-size: 100% 100%;
+    width: .21rem;
+    height: .14rem;
+    position: absolute;
+    right: .13rem;
+    top: .18rem;
+    z-index: 5;
+}
+.login .login-text {
+    padding-left: .45rem;
+    width: 100%;
+    font-size: .18rem;
+    color: rgba(255, 255, 255);
+    height: .5rem;
+    line-height:.5rem;
+    background-color: transparent;
+}
+.login .submit{
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    background-color: rgba(217, 94, 33);
+    border-radius: .1rem;
+    color: rgba(255, 255, 255);
+    font-size: .19rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

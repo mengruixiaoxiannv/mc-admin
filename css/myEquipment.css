@@ -1,0 +1,53 @@
+.myEquipment .header{
+    width: 100%;
+    height: .44rem;
+    line-height: .48rem;
+    background: rgba(0,0,51);
+    font-size: .16rem;
+    color: rgba(230,230,230);
+    overflow: hidden;
+    text-align: center;
+}
+.myEquipment .container{
+    width: 100%;
+    height: 2.35rem;
+    background: rgba(0,0,0,.5);
+    margin-top: .12rem;
+    overflow: hidden;
+}
+.myEquipment .item-top{
+    width: 100%;
+    padding: 0 .12rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: rgba(255,255,255);
+    font-size: .14rem;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.myEquipment .item-top-left{
+    float: left;
+}
+.myEquipment .item-top-left span:nth-child(2){
+    color: rgba(0,255,255);
+    font-weight: bold;
+}
+.myEquipment .item-top-right{
+    float: right;
+}
+.myEquipment .item-top-right span:nth-child(2){
+    color: rgba(64,195,18);
+}
+.myEquipment .item-bottom{
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        footer{
+            padding-top: .07rem;
+            position: fixed;
+            bottom: 0;
+            background-color:rgba(12, 12, 22, .8);
+            z-index: 99;
+            width: 100%;
+            height: .49rem;
+            border-top: .01rem solid rgba(117, 117, 118);
+            text-align: center;
+        }
+        .pic-foo{
+            width: .2rem;
+            height: .2rem;
+        }
+        .item-foo{
+            width: 25%;
+        }
+        .text{
+            color: rgba(117, 117, 118);
+            font-size: .1rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <footer>
+        <ul>
+            <li class="fl item-foo">
+                <a>
+                    <img src="img/syxz.png" class="pic-foo">
+                    <p class="text" style="color: rgba(0,155,219)">首页</p>
+                </a>
+            </li>
+            <li class="fl item-foo">
+                <a>
+                    <img src="img/jywxz.png" class="pic-foo">
+                    <p class="text">交易管理</p>
+                </a>
+            </li>
+            <li class="fl item-foo">
+                <a>
+                    <img src="img/sbwxz.png" class="pic-foo">
+                    <p class="text">我的设备</p>
+                </a>
+            </li>
+            <li class="fl item-foo">
+                <a>
+                    <img src="img/grwxz.png" class="pic-foo">
+                    <p class="text">个人中心</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        //   点击li切换图片与字体颜色
+        $('footer').on('click','li',function(e){
+            e.stopPropagation();
+            $('.pic-foo').eq(0).attr('src', 'img/sywxz.png')
+            $('.pic-foo').eq(1).attr('src', 'img/jywxz.png')
+            $('.pic-foo').eq(2).attr('src', 'img/sbwxz.png')
+            $('.pic-foo').eq(3).attr('src', 'img/grwxz.png')
+            // console.log($(this).index())
+            if ($(this).index() == 0) {
+                $(this).children().children('.pic-foo').attr('src', 'img/syxz.png')
+            } else if ($(this).index() == 1) {
+                $(this).children().children('.pic-foo').attr('src', 'img/jyxz.png')
+            } else if ($(this).index() == 2) {
+                $(this).children().children('.pic-foo').attr('src', 'img/sbxz.png')
+            } else if ($(this).index() == 3) {
+                $(this).children().children('.pic-foo').attr('src', 'img/grxz.png')
+            }
+            $('.text').css('color', 'rgba(117,117,118)')
+            $(this).children().children('p').css('color', 'rgba(0,155,219)')
+
+            var indx = $("footer .item-foo").index(this);
+            $('#content .con').hide();
+            $('#content .con').eq(indx).show();
+        })
+    })
+</script>
+<script src="js/myAccount.js"></script>
+</html>

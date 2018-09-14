@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>个人中心</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="description" itemprop="description" content="" />
+    <link rel="stylesheet" href="css/adminCenter.css">
+</head>
+<body>
+    <div class="adminCenter">
+        <div class="header">个人中心</div>
+        <div class="banner">
+            <img src="img/tx.png" class="banner-pic">
+            <div class="banner-content">
+                <p>admin</p>
+                <p>手机：13456789456</p>
+            </div>
+        </div>
+        <div class="item account">
+            <img src="img/grxz.png" class="item-pic">
+            <span>我的账户</span>
+            <img src="img/right.png" class="item-image">
+        </div>
+        <div class="item quit">
+            <img src="img/tcdl.png" class="item-pic">
+            <span>退出登录</span>
+            <img src="img/right.png" class="item-image">
+        </div>
+    </div>
+</body>
+<script>
+    $('.account').click(function(){
+        $('#admin').hide();
+        //   显示我的账户
+        $('#account').show();
+    })
+</script>
+</html>

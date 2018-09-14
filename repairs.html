@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <title>报修</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="description" itemprop="description" content="" />
+        <link rel="stylesheet" href="css/repairs.css">
+    </head>
+<body>
+    <div class="header">
+        <a onclick="window.history.go(-1)">
+            <img src="img/before.png" class="arrow">
+        </a>
+        <span>报修</span>
+    </div>
+    <div class="container">
+        <div class="item">
+            <div class="item-text">终端：</div>
+            <div class="inp-box">***票箱（158204000）</div>
+        </div>
+        <div class="item">
+            <div class="item-text">提交机构：</div>
+            <div class="inp-box">总部</div>
+        </div>
+        <div class="item">
+            <div class="item-text">故障代码：</div>
+            <input type="text" class="inp-box" placeholder="请输入故障代码" name="g-code">
+        </div>
+        <div class="item">
+            <div class="item-text">故障描述：</div>
+            <textarea class="inp-box" placeholder="请输入故障描述" name="g-describe"></textarea>
+        </div>
+        <div class="item">
+            <div class="item-text">备注：</div>
+            <input type="text" class="inp-box" placeholder="请输入备注" name="g-remark">
+        </div>
+        <div class="con-footer">
+            <div class="submit com-btn fl">提交</div>
+            <div class="cancel com-btn fr">取消</div>
+        </div>
+    </div>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/myAlert.js"></script>
+<script src="js/repairs.js"></script>
+</html>
+</html>

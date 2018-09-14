@@ -1,0 +1,197 @@
+/*公共样式--开始*/
+/* html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    height: 100%;
+    font-size: .16rem;
+}
+body {
+    background: url('../img/bgimage.png') no-repeat;
+    background-size:100% 100%;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+ul,ol {
+    list-style: none;
+}
+a{ 
+    text-decoration: none;
+} 
+input, textarea {
+    outline: none;
+    border: none;
+    font-family: none;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+} */
+
+.transaction .header{
+    width: 100%;
+    height: .44rem;
+    line-height: .48rem;
+    background: rgba(0,0,51);
+    font-size: .16rem;
+    color: rgba(230,230,230);
+    overflow: hidden;
+    text-align: center;
+}
+
+.transaction .record{
+    width: 100%;
+    overflow: hidden;
+    font-size: .14rem;
+    color: rgba(0,155,219);
+    text-align: center;
+}
+.transaction .list{
+    width: 50%;
+    height: .44rem;
+    line-height: .44rem;
+    border-bottom: 1px solid #7baedf;
+}
+.transaction .active{
+    color: rgba(0,255,255);
+    border-bottom: 2px solid rgba(0,255,255);
+}
+
+.transaction .wrap{
+
+}
+.transaction .wrap-date{}
+.transaction .main{
+    width: 100%;
+    font-size: .14rem;
+    color: rgba(230,230,230);
+}
+.transaction .item{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    height: .4rem;
+    line-height: .4rem;
+}
+.transaction .item-type{
+    width: 28%;
+    text-align: left;
+}
+.transaction .item-count{
+    width: 22%;
+    text-align: left;
+    line-height: .42rem;
+}
+.transaction .item-amount{
+    width: 25%;
+    text-align: left;
+    line-height: .42rem;
+}
+.transaction .item-date{
+    width: 25%;
+    text-align: center;
+}
+.transaction .content{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+.transaction .content div.container{
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    height: .44rem;
+    padding: 0 5%;
+    padding-top: .03rem;
+}
+.transaction .item-type-one{
+    font-size: .1rem;
+}
+.transaction .item-type-two{
+    font-size: .12rem;
+    opacity: .8;
+}
+.transaction .manage:not(:first-child) {
+    display: none;
+}
+.transaction .multi-selection {
+    height: 0.88rem;
+    background-color: rgba(0,0,0,.2);
+}
+.transaction .time {
+    line-height: 0.44rem;
+    position: relative;
+    display: flex;
+}
+/* .time:after{
+    content: "";
+    width: 40px;
+    height: 20px;
+    background: url("../img/微信图片_20180913102616.png") no-repeat center;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    pointer-events: none;
+} */
+.transaction .time>div {
+    width: 50%;
+}
+.transaction .select-list {
+    border: none;
+    outline: none;
+    width: 83%;
+    height: 40px;
+    line-height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+.transaction .equipment-list {
+    border: none;
+    outline: none;
+    width: 91%;
+    height: 40px;
+    line-height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+.transaction .time span {
+    display: inline-block;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+.transaction .equipment span {
+    display: inline-block;
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+.transaction .multi-selection option {
+    background-color: #000;
+    color: #fff;
+    border:0;
+}
+
+
+
+
+
+
+
+
+
+
