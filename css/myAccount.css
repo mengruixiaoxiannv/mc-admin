@@ -68,25 +68,27 @@ textarea {
 }
 
 .myAccount .item-left{
-    width: 26%;
+    width: 0.83rem;
     line-height: .42rem;
     text-align: left;
     color: rgba(204,204,204);
 }
 .myAccount .item-right{
-    width: 74%;
+    width: 2.35rem;
     text-align: left;
     line-height: .42rem;
     color: rgba(255,255,255);
 }
-.myAccount .attr{
+.myAccount .content div.attr{
     border-bottom: 1px solid rgba(255,255,255,.2);
     height: .6rem;
     padding: 0 5%;
+    width: 95%;
+    margin: .2rem auto;
     font-size: 14px;  
 }
 .myAccount .attr .item-right{
-    width: 74%;
+    width: 2.35rem;
     text-align: left;
     padding-top: .05rem;
     line-height: .25rem;
