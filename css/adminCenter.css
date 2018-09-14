@@ -38,7 +38,7 @@
     width: 100%;
     height: .44rem;
     border-bottom: 1px solid rgba(255,255,255,.2);
-    padding: .02rem .25rem;
+    padding: .12rem .25rem;
 }
 .adminCenter .item-pic{
     width: .24rem;
@@ -53,7 +53,7 @@
     width: .11rem;
     height: .15rem;
     float: right;
-    margin-top: .13rem;
+    margin-top: .02rem;
 }
 
 

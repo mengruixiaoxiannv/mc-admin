@@ -12,7 +12,7 @@
 <body>
 	<div class="myEquipment">
 		<div class="header">我的设备</div>
-		<div class="wrap-container">
+		<div class="container">
 			<div class="item-top">
 				<div class="item-top-left">
 					<span>设备编号：</span><span>000000001</span>
@@ -22,13 +22,85 @@
 				</div>
 			</div>
 			<div class="item-bottom">
-				<div class="item-list"></div>
-				<div class="item-list"></div>
-				<div class="item-list"></div>
-				<div class="item-list"></div>
+				<div class="item-list">
+					<img src="img/dtjye.png" class="item-list-pic">
+					<div class="content">
+						<p>当天交易额</p>
+						<p>2500<span>元</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/dtxl.png" class="item-list-pic">
+					<div class="content">
+						<p>当天销量</p>
+						<p>200<span>张</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/ddbs.png" class="item-list-pic">
+					<div class="content">
+						<p>订单笔数</p>
+						<p>500<span>笔</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/kcyl.png" class="item-list-pic">
+					<div class="content">
+						<p>库存余量</p>
+						<p>20<span>张</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="item-top">
+				<div class="item-top-left">
+					<span>设备编号：</span><span>000000001</span>
+				</div>
+				<div class="item-top-right">
+					<span>状态：</span><span class="error">故障</span>
+					<div class="repairs-pic">
+						<img src="img/wx.png">
+					</div>
+				</div>
+			</div>
+			<div class="item-bottom">
+				<div class="item-list">
+					<img src="img/dtjye.png" class="item-list-pic">
+					<div class="content">
+						<p>当天交易额</p>
+						<p>2500<span>元</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/dtxl.png" class="item-list-pic">
+					<div class="content">
+						<p>当天销量</p>
+						<p>200<span>张</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/ddbs.png" class="item-list-pic">
+					<div class="content">
+						<p>订单笔数</p>
+						<p>500<span>笔</span></p>
+					</div>
+				</div>
+				<div class="item-list">
+					<img src="img/kcyl.png" class="item-list-pic">
+					<div class="content">
+						<p>库存余量</p>
+						<p>20<span>张</span></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </body>
+<script>
+ 	$('.repairs-pic img').click(function(){
+		window.location.href='repairs.html';
+	})
+</script>
 </html>
 

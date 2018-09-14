@@ -10,7 +10,7 @@
 }
 .myEquipment .container{
     width: 100%;
-    height: 2.35rem;
+    height: 2.36rem;
     background: rgba(0,0,0,.5);
     margin-top: .12rem;
     overflow: hidden;
@@ -34,16 +34,57 @@
 .myEquipment .item-top-right{
     float: right;
 }
+.myEquipment .repairs-pic{
+    width: .3rem;
+    height: .3rem;
+    display: inline-block;
+}
+.myEquipment .repairs-pic img{
+    width: 100%;
+}
 .myEquipment .item-top-right span:nth-child(2){
     color: rgba(64,195,18);
+    margin-left: .02rem;
+}
+.myEquipment .item-top-right span.error{
+    margin: 0 .05rem;
+    color: rgba(255,28,28);
 }
 .myEquipment .item-bottom{
-
 }
-
-
-
-
+.myEquipment .item-list{
+    width: 50%;
+    height: .98rem;
+    border-right: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    float: left;
+    padding: .22rem .12rem;
+}
+.myEquipment .item-list-pic{
+    width: .41rem;
+    height: .41rem;    
+    display: inline-block;
+    float: left;
+    margin-top: .05rem;
+}
+.myEquipment .content{
+    width: 70%;
+    height: .45rem;
+    line-height: .24rem;
+    margin-left: .53rem;
+    color: rgba(255,255,255);
+    font-size: .12rem;
+}
+.myEquipment .content p:nth-child(2){
+    font-size: .18rem;
+    color: rgba(0,255,255);
+    font-weight: bold;
+}
+.myEquipment .content p>span{
+    font-size: .12rem;
+    margin-left: .05rem;
+    font-weight: normal;
+}
 
 
 
