@@ -128,6 +128,7 @@ textarea {
 }
 .transaction .time {
     line-height: 0.44rem;
+    background-color: rgba(0,0,0,.2);
     position: relative;
     display: flex;
 }
@@ -143,11 +144,12 @@ textarea {
 } */
 .transaction .time>div {
     width: 50%;
+    padding: 0 0.1rem;
 }
 .transaction .select-list {
     border: none;
     outline: none;
-    width: 83%;
+    width: 81%;
     height: 40px;
     line-height: 40px;
     appearance: none;
@@ -169,6 +171,10 @@ textarea {
     padding-left: 10px;
     background-color: rgba(0,0,0,.2);
     color: #fff;
+}
+.equipment {
+    padding: 0 0.1rem;
+    background-color: rgba(0,0,0,.2);
 }
 .transaction .time span {
     display: inline-block;

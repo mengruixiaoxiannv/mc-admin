@@ -8,11 +8,5 @@ $(function(){
             con.eq(indx).show();
         })    
     }
-    tabs($(".record .list"), $('.main .manage'));  
-
-    setTimeout(() => {
-        $("#mySelect").select({
-            width: "200px"
-        });
-    }, 0)
+    tabs($(".record .list"), $('.main .manage')); 
 })
