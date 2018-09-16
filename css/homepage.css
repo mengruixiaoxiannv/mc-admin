@@ -37,6 +37,9 @@ textarea {
 .fr {
     float: right
 }
+.hide{
+    display: none
+}
 
 .homepage .header{
     width: 100%;

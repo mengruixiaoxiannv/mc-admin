@@ -13,6 +13,9 @@ $(function() {
     //   引入我的设备
     $('#equipment').load('repairs.html');
     $('#equipment').hide()
+    //   引入登录页面
+    $('#login').load('login.html');
+    $('#login').hide()
     //   引入共同的底部
     $('#footer').load('footer.html');
 })

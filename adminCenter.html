@@ -29,6 +29,14 @@
             <span>退出登录</span>
             <img src="img/right.png" class="item-image">
         </div>
+        <div id="model" class="hide">
+            <div class="model-null"></div>
+            <div class="model-cont">
+                <div class="model-cont-top">您确定要退出当前账号？</div>
+                <div class="model-true fl">确认退出</div>
+                <div class="model-cancel fr">取消</div>
+            </div>
+        </div>
     </div>
 </body>
 <script>
@@ -36,6 +44,17 @@
         $('#admin').hide();
         //   显示我的账户
         $('#account').show();
+    });
+    $('.quit').click(function(){
+        $('#model').removeClass('hide');
+    })
+    $('.model-cancel').click(function(){
+        $('#model').addClass('hide');
+    })
+    $('.model-true').click(function(){
+        $('#admin').hide();
+        //   显示登录页
+        $('#login').show();
     })
 </script>
 </html>
