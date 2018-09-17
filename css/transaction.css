@@ -27,21 +27,56 @@
     border-bottom: 2px solid rgba(0,255,255);
 }
 
-.transaction .wrap{
-
-}
-.transaction .wrap-date{}
 .transaction .main{
     width: 100%;
     font-size: .14rem;
     color: rgba(230,230,230);
 }
+.transaction .manage {
+    position: relative;
+    height: 70vh;
+}
+.transaction .date-box {
+    width: 92vw;
+    overflow-x: scroll;
+}
+.transaction .wrap-date{
+    width: 130vw;
+    height: .34rem;
+    padding-top: .1rem;
+    overflow: overlay;
+}
+.transaction .wrap-date li{
+    width: 17.5vw;
+    border-right: 1px solid rgba(0,255,255);
+    text-align: center;
+    display: inline-block;
+}
+
+.transaction .date-picker{
+    width: 0.18rem;
+    height: 0.18rem;
+    position: absolute;
+    top: .08rem;
+    right: .08rem;
+}
+.transaction .date-picker img{
+    width: 100%;
+}
+.transaction .equipment-number{
+    width: 100%;
+    height: .34rem;
+    background: rgba(0,0,0,.5);
+}
+
+/* 票种，数量，金额，时间 */
 .transaction .item{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
     height: .4rem;
     line-height: .4rem;
+    font-weight: bold;
 }
 .transaction .item-type{
     width: 28%;
@@ -79,6 +114,8 @@
     font-size: .12rem;
     opacity: .8;
 }
+
+/* 交易分析 */
 .transaction .manage:not(:first-child) {
     display: none;
 }
@@ -109,26 +146,26 @@
 .transaction .select-list {
     border: none;
     outline: none;
-    width: 81%;
-    height: 40px;
-    line-height: 40px;
+    width: 76%;
+    height: 0.3rem;
+    line-height: 0.4rem;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: 10px;
+    padding-left: 0.1rem;
     background-color: rgba(0,0,0,.2);
     color: #fff;
 }
 .transaction .equipment-list {
     border: none;
     outline: none;
-    width: 91%;
-    height: 40px;
-    line-height: 40px;
+    width: 80%;
+    height: 0.4rem;
+    line-height: 0.4rem;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: 10px;
+    padding-left: 0.1rem;
     background-color: rgba(0,0,0,.2);
     color: #fff;
 }
@@ -153,11 +190,37 @@
 }
 
 
-
-
-
-
-
-
+.transaction .item-detail{
+    width: 93.6%;
+    height: 1.5rem;
+    background: rgba(255,255,255,.2);
+    border-radius: .06rem;
+    margin: .12rem auto;
+}
+.transaction .detail-top{
+    padding: 0 .12rem;
+    line-height: .35rem;
+    border-bottom: 1px dashed rgba(255,255,255,.5);
+    color: rgba(255,255,255,.6);
+    font-size: .14rem;
+}
+.transaction .detail-bottom{
+    padding-top: .05rem;
+    color: rgba(255,255,255);
+    text-align: center;
+    font-size: .14rem;
+    overflow: hidden;
+}
+.transaction .detail-price{
+    font-size: .5rem;
+    color: rgba(0,255,255);
+    text-align: center;
+}
+.transaction .detail-sale{
+    width:50%;                                                                                                                                                                                        
+}
+.transaction .detail-count{
+    width:50%;
+}
 
 

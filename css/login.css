@@ -9,7 +9,7 @@
 .login .main{
     width: 87.22%;
     margin: .4rem auto;
-    height: 31%;
+    height: 2rem;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;

@@ -9,4 +9,5 @@ $(function(){
         })    
     }
     tabs($(".record .list"), $('.main .manage')); 
+   
 })

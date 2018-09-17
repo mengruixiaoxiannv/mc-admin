@@ -40,6 +40,9 @@ textarea {
 .hide{
     display: none
 }
+.high-light{
+    color: rgba(0,255,255);
+}
 
 .homepage .header{
     width: 100%;
@@ -51,9 +54,6 @@ textarea {
     padding: 0 .12rem;
     overflow: hidden;
 }
-.homepage .head-admin span:nth-child(2){
-    color: rgba(0,255,255)
-}
 .homepage .wrap{
     width: 100%;
     margin: 18.5% auto;
@@ -61,11 +61,9 @@ textarea {
 }
 .homepage .price span:nth-child(1){
     font-size: .7rem;
-    color: rgba(0,255,255);
 }
 .homepage .price span:nth-child(2){
     font-size: .18rem;
-    color: rgba(0,255,255);
     position: relative;
     top:0;
     left:.1rem;

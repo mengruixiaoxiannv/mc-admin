@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>交易管理</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="description" itemprop="description" content="" />
-    <link rel="stylesheet" href="css/transaction.css">
+    <link rel="stylesheet" href="css/transaction.css">    
 </head>
 <body>
     <div class="transaction">
@@ -16,81 +10,132 @@
             <li class="list fl active">交易流水</li>
             <li class="list fr">交易分析</li>
         </ul>
-        <div class="transaction">
-            <div class="main">
-                <div class="trading-flow manage">
-                    <div class="wrap-date">
-            
+        <div class="main">
+            <div class="trading-flow manage">
+                <div style="background:rgba(0,0,0,.5);margin-bottom: 1px;">
+                    <div class="date-box">
+                        <ul class="wrap-date">
+                            <li class="high-light">今天</li>
+                            <li>09-16</li>
+                            <li>09-15</li>
+                            <li>09-14</li>
+                            <li>09-13</li>
+                            <li>09-12</li>
+                            <li>09-11</li>
+                        </ul>
                     </div>
-                    <div class="item">
-                        <div class="item-type fl">票种</div>
-                        <div class="item-count fl">数量</div>
-                        <div class="item-amount fl">金额</div>
-                        <div class="item-date fl">时间</div>
+                    <input type="text" class="demo-input" placeholder="请选择日期" id="test1">
+                    <div id="test1" class="date-picker">
+                        <img src="img/rqxz.png">
                     </div>
-                    <div class="content">
-                        <div class="container">
-                            <div class="item-type fl">
-                                <div>功夫</div>
-                                <div class="item-type-one">(2元)</div>
-                            </div>
-                            <div class="item-count fl">10</div>
-                            <div class="item-amount fl">20元</div>
-                            <div class="item-date fl">
-                                <span class="item-type-two">2018-05-15</span>
-                                <span class="item-type-two">10:30:00</span>
-                            </div>
+                </div>
+                <div class="equipment-number">
+                       
+                </div>
+                <div class="item">
+                    <div class="item-type fl">票种</div>
+                    <div class="item-count fl">数量</div>
+                    <div class="item-amount fl">金额</div>
+                    <div class="item-date fl">时间</div>
+                </div>
+                <div class="content">
+                    <div class="container">
+                        <div class="item-type fl">
+                            <div>功夫</div>
+                            <div class="item-type-one">(2元)</div>
                         </div>
-                        <div class="container">
-                            <div class="item-type fl">
-                                <div>功夫</div>
-                                <div class="item-type-one">(2元)</div>
-                            </div>
-                            <div class="item-count fl">10</div>
-                            <div class="item-amount fl">20元</div>
-                            <div class="item-date fl">
-                                <span class="item-type-two">2018-05-15</span>
-                                <span class="item-type-two">10:30:00</span>
-                            </div>
+                        <div class="item-count fl">10</div>
+                        <div class="item-amount fl">20元</div>
+                        <div class="item-date fl">
+                            <span class="item-type-two">2018-05-15</span>
+                            <span class="item-type-two">10:30:00</span>
                         </div>
-                        <div class="container">
-                            <div class="item-type fl">
-                                <div>功夫</div>
-                                <div class="item-type-one">(2元)</div>
-                            </div>
-                            <div class="item-count fl">10</div>
-                            <div class="item-amount fl">20元</div>
-                            <div class="item-date fl">
-                                <span class="item-type-two">2018-05-15</span>
-                                <span class="item-type-two">10:30:00</span>
-                            </div>
+                    </div>
+                    <div class="container">
+                        <div class="item-type fl">
+                            <div>功夫</div>
+                            <div class="item-type-one">(2元)</div>
+                        </div>
+                        <div class="item-count fl">10</div>
+                        <div class="item-amount fl">20元</div>
+                        <div class="item-date fl">
+                            <span class="item-type-two">2018-05-15</span>
+                            <span class="item-type-two">10:30:00</span>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="item-type fl">
+                            <div>功夫</div>
+                            <div class="item-type-one">(2元)</div>
+                        </div>
+                        <div class="item-count fl">10</div>
+                        <div class="item-amount fl">20元</div>
+                        <div class="item-date fl">
+                            <span class="item-type-two">2018-05-15</span>
+                            <span class="item-type-two">10:30:00</span>
                         </div>
                     </div>
                 </div>
-                <div class="transaction-analysis manage">
-                    <div class="multi-selection">
-                        <div class="time">
-                            <div>
-                                <span>时间: </span><select name="" class="select-list">
-                                    <option value="按日统计">按日统计</option>
-                                    <option value="按周统计">按周统计</option>
-                                    <option value="按月统计">按月统计</option>
-                                </select>
-                            </div>
-                            <div>
-                                <span>票种: </span><select name="" class="select-list">
-                                    <option value="按日统计">按日统计</option>
-                                    <option value="按周统计">按周统计</option>
-                                    <option value="按月统计">按月统计</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="equipment">
-                            <span>时间: </span><select name="" class="equipment-list">
+            </div>
+            <div class="transaction-analysis manage">
+                <div class="multi-selection">
+                    <div class="time">
+                        <div>
+                            <span>时间: </span><select name="" class="select-list">
                                 <option value="按日统计">按日统计</option>
                                 <option value="按周统计">按周统计</option>
                                 <option value="按月统计">按月统计</option>
                             </select>
+                        </div>
+                        <div>
+                            <span>票种: </span><select name="" class="select-list">
+                                <option value="按日统计">按日统计</option>
+                                <option value="按周统计">按周统计</option>
+                                <option value="按月统计">按月统计</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="equipment">
+                        <span>时间: </span><select name="" class="equipment-list">
+                            <option value="按日统计">按日统计</option>
+                            <option value="按周统计">按周统计</option>
+                            <option value="按月统计">按月统计</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="multi-item">
+                    <div class="item-detail">
+                        <div class="detail-top">日期：2018.08.18</div>
+                        <div class="detail-bottom">
+                            <p>销售金额</p>
+                            <p class="detail-price">￥2500</p>
+                            <div class="detail-sale fl">
+                                <span>销售数量：</span>
+                                <span class="high-light">200</span>
+                                <span>（张）</span>
+                            </div>
+                            <div class="detail-count fr">
+                                <span>交易笔数：</span>
+                                <span class="high-light">20</span>
+                                <span>（笔）</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-detail">
+                        <div class="detail-top">日期：2018.08.18</div>
+                        <div class="detail-bottom">
+                            <p>销售金额</p>
+                            <p class="detail-price">￥2500</p>
+                            <div class="detail-sale fl">
+                                <span>销售数量：</span>
+                                <span class="high-light">200</span>
+                                <span>（张）</span>
+                            </div>
+                            <div class="detail-count fr">
+                                <span>交易笔数：</span>
+                                <span class="high-light">20</span>
+                                <span>（笔）</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,4 +144,5 @@
     </div>
 </body>
 <script src="js/transaction.js"></script>
+
 </html>
