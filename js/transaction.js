@@ -9,5 +9,13 @@ $(function(){
         })    
     }
     tabs($(".record .list"), $('.main .manage')); 
-   
+    $('.layui-laydate').css('right','0px')
 })
+
+var meng = function(){
+    setTimeout(function(){
+        // $('#test1').focus();
+        $('#test1').click();
+        console.log($('#test1'))
+    },0)
+}
