@@ -14,7 +14,7 @@ $(function(){
             top: 'bottom',
             textStyle: {
                 fontSize: 14,
-                color: 'rgba(0, 155, 219)'
+                color: '#009bdb'
             }
         },
 

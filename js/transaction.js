@@ -19,7 +19,23 @@ var meng = function(){
         $('#layui-laydate1').css({
             "left":"16%",
             "top":"18%",
-            "right":"10%",
+            "right":"9%",
+        });
+        $('.layui-laydate-content td').css({
+            "border-radius":"50%",
         })
     },0)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

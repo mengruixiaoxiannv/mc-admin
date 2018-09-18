@@ -2,9 +2,9 @@
     width: 100%;
     height: .44rem;
     line-height: .48rem;
-    background: rgba(0,0,51);
+    background: #000033;
     font-size: .16rem;
-    color: rgba(230,230,230);
+    color: #e6e6e6;
     overflow: hidden;
     text-align: center;
 }
@@ -13,7 +13,7 @@
     width: 100%;
     overflow: hidden;
     font-size: .14rem;
-    color: rgba(0,155,219);
+    color: #009bdb;
     text-align: center;
 }
 .transaction .list{
@@ -23,14 +23,14 @@
     border-bottom: 1px solid #7baedf;
 }
 .transaction .active{
-    color: rgba(0,255,255);
-    border-bottom: 2px solid rgba(0,255,255);
+    color: #00ffff;
+    border-bottom: 2px solid #00ffff;
 }
 
 .transaction .main{
     width: 100%;
     font-size: .14rem;
-    color: rgba(230,230,230);
+    color: #e6e6e6;
 }
 .transaction .manage {
     position: relative;
@@ -48,7 +48,7 @@
 }
 .transaction .wrap-date li{
     width: 17.5vw;
-    border-right: 1px solid rgba(0,255,255);
+    border-right: 1px solid #00ffff;
     text-align: center;
     display: inline-block;
 }
@@ -62,11 +62,6 @@
 }
 .transaction .date-picker img{
     width: 100%;
-}
-.transaction .equipment-number{
-    width: 100%;
-    height: .34rem;
-    background: rgba(0,0,0,.5);
 }
 
 /* 票种，数量，金额，时间 */
@@ -97,15 +92,17 @@
     text-align: center;
 }
 .transaction .content{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0.5); 
+    color: #e6e6e6;
     width: 100%;
     height: 100%;
 }
 .transaction .content div.container{
-    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid #fff;
     height: .44rem;
     padding: 0 5%;
     padding-top: .03rem;
+   
 }
 .transaction .item-type-one{
     font-size: .1rem;
@@ -121,11 +118,11 @@
 }
 .transaction .multi-selection {
     height: 0.88rem;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .5);
 }
 .transaction .time {
     line-height: 0.44rem;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .5);
     position: relative;
     display: flex;
 }
@@ -141,7 +138,7 @@
 } */
 .transaction .time>div {
     width: 50%;
-    padding: 0 0.1rem;
+    padding: 0 0.12rem;
 }
 .transaction .select-list {
     border: none;
@@ -152,9 +149,14 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: 0.1rem;
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
+    padding-left: 0.12rem;
+    background-color: rgba(0, 0, 0, .5);
+    color: #e6e6e6;
+}
+.transaction .equipment {
+    padding: 0 .12rem;
+    background-color: rgba(0,0,0,0.5);   
+
 }
 .transaction .equipment-list {
     border: none;
@@ -165,55 +167,57 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: 0.1rem;
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
+    padding-left: 0.12rem;
+    background-color: rgba(0, 0, 0, .5);
+    color: #e6e6e6;
 }
-.equipment {
-    padding: 0 0.1rem;
-    background-color: rgba(0,0,0,.2);
+.transaction .equipment-number{
+    width: 100%;
+    height: .34rem;
 }
 .transaction .time span {
     display: inline-block;
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
+    color: #e6e6e6;
 }
 .transaction .equipment span {
     display: inline-block;
-    background-color: rgba(0,0,0,.2);
-    color: #fff;
+    color: #e6e6e6;
 }
-.transaction .multi-selection option {
-    background-color: #000;
-    color: #fff;
+.transaction .equipment option {
+    background-color:  rgba(0, 0, 0, .5);
+    color: #e6e6e6;
     border:0;
 }
-
-
+.transaction .time option {
+    background-color:  rgba(0, 0, 0, .5); 
+    color: #e6e6e6;
+    border:0;
+}
 .transaction .item-detail{
     width: 93.6%;
     height: 1.5rem;
-    background: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
     border-radius: .06rem;
     margin: .12rem auto;
 }
 .transaction .detail-top{
     padding: 0 .12rem;
     line-height: .35rem;
-    border-bottom: 1px dashed rgba(255,255,255,.5);
-    color: rgba(255,255,255,.6);
+    border-bottom: 1px dashed rgba(0, 0, 0, .5);
+    color: #ffffff;
     font-size: .14rem;
 }
 .transaction .detail-bottom{
     padding-top: .05rem;
-    color: rgba(255,255,255);
+    color: #ffffff;
     text-align: center;
     font-size: .14rem;
     overflow: hidden;
 }
 .transaction .detail-price{
     font-size: .5rem;
-    color: rgba(0,255,255);
+    color: #00ffff;
     text-align: center;
 }
 .transaction .detail-sale{
@@ -222,5 +226,4 @@
 .transaction .detail-count{
     width:50%;
 }
-
 

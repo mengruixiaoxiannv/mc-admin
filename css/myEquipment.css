@@ -2,16 +2,16 @@
     width: 100%;
     height: .44rem;
     line-height: .48rem;
-    background: rgba(0,0,51);
+    background: #000033;
     font-size: .16rem;
-    color: rgba(230,230,230);
+    color: #e6e6e6;
     overflow: hidden;
     text-align: center;
 }
 .myEquipment .container{
     width: 100%;
     height: 2.36rem;
-    background: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0.5); 
     margin-top: .12rem;
     overflow: hidden;
 }
@@ -20,15 +20,15 @@
     padding: 0 .12rem;
     height: .4rem;
     line-height: .4rem;
-    color: rgba(255,255,255);
+    color: #ffffff;
     font-size: .14rem;
-    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid #ffffff;
 }
 .myEquipment .item-top-left{
     float: left;
 }
 .myEquipment .item-top-left span:nth-child(2){
-    color: rgba(0,255,255);
+    color: #00ffff;
     font-weight: bold;
 }
 .myEquipment .item-top-right{
@@ -43,27 +43,25 @@
     width: 100%;
 }
 .myEquipment .item-top-right span:nth-child(2){
-    color: rgba(64,195,18);
+    color: #40c312;
     margin-left: .02rem;
 }
 .myEquipment .item-top-right span.error{
     margin: 0 .05rem;
-    color: rgba(255,28,28);
+    color: #ff1c1c;
 }
-.myEquipment .item-bottom{
-}
+
 .myEquipment .item-list{
     width: 50%;
     height: .98rem;
-    border-right: 1px solid rgba(255,255,255,.2);
-    border-bottom: 1px solid rgba(255,255,255,.2);
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     float: left;
     padding: .22rem .12rem;
 }
 .myEquipment .item-list-pic{
     width: .41rem;
     height: .41rem;    
-    display: inline-block;
     float: left;
     margin-top: .05rem;
 }
@@ -72,12 +70,12 @@
     height: .45rem;
     line-height: .24rem;
     margin-left: .53rem;
-    color: rgba(255,255,255);
+    color: #ffffff;
     font-size: .12rem;
 }
 .myEquipment .content p:nth-child(2){
     font-size: .18rem;
-    color: rgba(0,255,255);
+    color: #00ffff;
     font-weight: bold;
 }
 .myEquipment .content p>span{

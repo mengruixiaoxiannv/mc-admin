@@ -6,11 +6,11 @@
             padding-top: .07rem;
             position: fixed;
             bottom: 0;
-            background-color:rgba(12, 12, 22, .8);
+            background-color:rgba(12, 12, 23, .8);
             z-index: 99;
             width: 100%;
             height: .49rem;
-            border-top: .01rem solid rgba(117, 117, 118);
+            border-top: .01rem solid #757576;
             text-align: center;
         }
         .pic-foo{
@@ -21,7 +21,7 @@
             width: 25%;
         }
         .text{
-            color: rgba(117, 117, 118);
+            color: #757576;
             font-size: .1rem;
         }
     </style>
@@ -32,7 +32,7 @@
             <li class="fl item-foo">
                 <a>
                     <img src="img/syxz.png" class="pic-foo">
-                    <p class="text" style="color: rgba(0,155,219)">首页</p>
+                    <p class="text" style="color: #009bdb">首页</p>
                 </a>
             </li>
             <li class="fl item-foo">
@@ -77,8 +77,8 @@
             } else if ($(this).index() == 3) {
                 $(this).children().children('.pic-foo').attr('src', 'img/grxz.png')
             }
-            $('.text').css('color', 'rgba(117,117,118)')
-            $(this).children().children('p').css('color', 'rgba(0,155,219)')
+            $('.text').css('color', '#757576')
+            $(this).children().children('p').css('color', '#009bdb')
 
             var indx = $("footer .item-foo").index(this);
             $('#content .con').hide();
